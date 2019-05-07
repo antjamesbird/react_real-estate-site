@@ -1,0 +1,36 @@
+@import '../../common/vars.scss';
+
+.propertyCarousel {
+  padding-bottom: 40px;
+  .item {
+
+      .contents {
+        margin: 0 auto;
+        width: 250px;
+        padding: 10px;
+        background: $lightgray;
+
+        button {
+          width: 100%;
+          background: $secondaryColour;
+          border: solid 1px $white;
+          color: $primaryColour;
+        }
+
+        p {
+          padding: 15px 0 15px 0;
+        }
+
+        h3 {
+          padding: 20px 0 15px 0;
+          margin: 0;
+        }
+
+        img {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        }
+      }
+  }
+}

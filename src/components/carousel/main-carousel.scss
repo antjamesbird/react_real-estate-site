@@ -1,0 +1,13 @@
+@import '../../common/vars.scss';
+@import "~slick-carousel/slick/slick.css";
+// @import 'slick.scss';
+
+#carousel-wrap {
+  position: relative;
+
+  .carousel {
+    border-top: solid 5px $secondaryColour;
+    height: 360px;
+    background: $primaryColour;
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../common/vars.scss';
+
+.sale-properties {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  padding: 15px 0 15px 0;
+
+  .row {
+    margin-bottom: 30px;
+    background: $lightgray;
+    padding: 20px;
+    border: 1px solid #cccccc;
+  }
+
+  .main-img img {
+    width: 333px;
+    height: 252px;
+  }
+
+  h2.price {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  h3.title {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  button {
+    transition: all 0.5s ease;
+    float: right;
+    font-size: 12px;
+    padding: 10px;
+    background: $primaryColour;
+    border: solid 1px $white;
+    color: $white;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 1;
+
+    &:hover {
+      background: $secondaryColour;
+      padding: 12px;
+    }
+  }
+}

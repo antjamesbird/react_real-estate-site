@@ -1,0 +1,36 @@
+@import '../../common/vars.scss';
+
+nav {
+  height: 26px;
+}
+.navigation {
+  ul {
+    float: right;
+    list-style: none;
+    margin-bottom: 5px;
+
+    li {
+      display: inline-block;
+
+      a {
+        // font-family: 'Roboto';
+        color: $white;
+        transition: background 0.8s ease;
+        text-decoration: none;
+        padding: 10px 20px 10px 20px;
+        border-right: 1px solid #3578ae;
+        font-weight: lighter;
+        box-sizing: border-box;
+
+        &:hover {
+          transition: background 0.8s ease;
+          background: $secondaryColour;
+        }
+
+        &.active {
+          background: $secondaryColour;
+        }
+      }
+    }
+  }
+}

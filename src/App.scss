@@ -1,0 +1,24 @@
+@import './common/vars.scss';
+
+main {
+  margin-top: 30px;
+   h1 {
+    font-size: 24px;
+    color: $primaryColour;
+    margin-top: 0;
+    padding: 0;
+  }
+  h3 {
+    color: $secondaryColour;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  font-size: 14px;
+
+  &.noBorderTop {
+    margin-top: 0px;
+  }
+  .subtext {
+    font-size: 12px;
+  }
+}

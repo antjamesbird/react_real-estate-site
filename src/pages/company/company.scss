@@ -1,0 +1,30 @@
+@import '../../common/vars.scss';
+
+#companyView {
+  .imgContainer {
+    padding: 20px;
+    background: linear-gradient(#fff,#ddd);
+    border: #ccc 1px solid;
+    border-radius: 4px 4px 0 0;
+
+    .img {
+      width: 45%;
+      float: left;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .details {
+      width: 55%;
+      float: right;
+    }
+
+    img {
+      margin-right: 15px;
+      border: 1px solid #cccccc;
+    }
+  }
+}
